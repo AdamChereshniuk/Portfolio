@@ -1,6 +1,3 @@
-import lagoona from "./../img/projects/lagoona.jpg";
-import lagoonaBig from "./../img/projects/lagoona.jpg";
-
 import vk_marusya from "./../img/projects/vk_marusya.jpg";
 import vk_marusyaBig from "./../img/projects/vk_marusya.jpg";
 

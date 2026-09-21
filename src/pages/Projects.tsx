@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { projects, type Project } from "../helpers/projectsList";
+import { projects } from "../helpers/projectsList";
 import { ProjectComponent } from "../components/Project/Project";
 
 export const Projects = () => {
