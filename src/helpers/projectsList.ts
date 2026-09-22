@@ -58,6 +58,21 @@ import turkomandaBig from "./../img/projects/turkomanda.png";
 import dashboard from "./../img/projects/dashboard.png";
 import dashboardBig from "./../img/projects/dashboard.png";
 
+import recipes_app from "./../img/projects/recipes_app.png";
+import recipes_appBig from "./../img/projects/recipes_app.png";
+
+import all_for_investor from "./../img/projects/all_for_investor.png";
+import all_for_investorBig from "./../img/projects/all_for_investor.png";
+
+import cakes from "./../img/projects/cakes.png";
+import cakesBig from "./../img/projects/cakes.png";
+
+import no_photo from "./../img/projects/no_photo.webp";
+import no_photoBig from "./../img/projects/no_photo.webp";
+
+import crm_react from "./../img/projects/crm_react.png";
+import crm_reactBig from "./../img/projects/crm_react.png";
+
 export const projects: Project[] = [
 	// Html & Css & Js
 	{
@@ -228,55 +243,72 @@ export const projects: Project[] = [
 		gitHubLink: "https://github.com/adamchereshniuk/Meals-App",
 		liveSiteLink: "https://adamchereshniuk.github.io/Meals-App/",
 	},
-	// {
-	// 	id: "react-4",
-	// 	title: "PicVault",
-	// 	description: "Одностраничный сайт для поиска блюд по названию, первой букве и ингредиентам.",
-	// 	skills: "ReactJS, Redux, TypeScript, Vite, Tailwind CSS",
-	// 	tab: "ReactJS",
-	// 	img: meals_app,
-	// 	imgBig: meals_appBig,
-	// 	gitHubLink: "https://github.com/adamchereshniuk/Meals-App",
-	// 	liveSiteLink: "https://adamchereshniuk.github.io/Meals-App/",
-	// },
-
-	// Vue
 	{
-		id: "vue-1",
-		title: "Dashboard",
-		description: "Одностраничный сайт-дашборд со статичными данными.",
-		skills: "VueJS, Vite, ChartJS, Vue-chartjs",
-		tab: "VueJS",
-		img: dashboard,
-		imgBig: dashboardBig,
-		gitHubLink: "https://github.com/adamchereshniuk/Dashboard",
-		liveSiteLink: "https://adamchereshniuk.github.io/Dashboard/",
+		id: "react-4",
+		title: "Recipes App",
+		description: "Одностраничный десктопный сайт-блог рецептов.",
+		skills: "ReactJS, SASS, TypeScript, Vite, Pinia, Supabase",
+		tab: "ReactJS",
+		img: recipes_app,
+		imgBig: recipes_appBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/Recipes-App",
+		liveSiteLink: "https://adamchereshniuk.github.io/Recipes-App/Recipes-App/",
 	},
 	{
-		id: "vue-2",
-		title: "Google Maps App",
-		description: "Одностраничный сайт с Google-картой.",
-		skills: "VueJS, Vite, Bootstrap, Google Maps API",
-		tab: "VueJS",
-		img: google_maps_app,
-		imgBig: google_maps_appBig,
-		gitHubLink: "https://github.com/adamchereshniuk/Google-Maps-App",
-		liveSiteLink: "https://adamchereshniuk.github.io/Google-Maps-App/",
+		id: "react-5",
+		title: "CRM",
+		description: "Десктопная CRM-система для управления заказами.",
+		skills: "ReactJS, SASS, TypeScript, Vite, Supabase",
+		tab: "ReactJS",
+		img: crm_react,
+		imgBig: crm_reactBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/CRM-React",
+		liveSiteLink: "https://adamchereshniuk.github.io/CRM-React/",
+	},
+	{
+		id: "react-6",
+		title: "Все для инвестора",
+		description: "Десктопный сервис с полезными функциями для инвесторов.",
+		skills: "ReactJS, TypeScript, Vite, T-Invest API",
+		tab: "ReactJS",
+		img: all_for_investor,
+		imgBig: all_for_investorBig,
+		gitHubLink: "https://github.com/AdamChereshniuk/All-For-Investor",
+		liveSiteLink: "https://adamchereshniuk.github.io/All-For-Investor/",
 	},
 
 	// WordPress
 	{
 		id: "wordpress-1",
-		title: "Foodi",
-		description: "Одностраничный сайт ресторана Foodi.",
+		title: "Amberkava",
+		description: "Многостраничный сайт компании Amberkava.",
 		skills: "WordPress, Elementor",
 		tab: "WordPress",
-		img: foodi,
-		imgBig: foodiBig,
-		liveSiteLink: "http://adamcher.atwebpages.com/#",
+		img: amberkava,
+		imgBig: amberkavaBig,
+		liveSiteLink: "https://amberkava.22web.org/wp/",
 	},
 	{
 		id: "wordpress-2",
+		title: "Cakes",
+		description: "Одностраничный сайт магазина пирожных.",
+		skills: "WordPress, Elementor",
+		tab: "WordPress",
+		img: cakes,
+		imgBig: cakesBig,
+		liveSiteLink: "https://cakes.22web.org/",
+	},
+	{
+		id: "wordpress-3",
+		title: "Organic Food (в работе)",
+		description: "Одностраничный сайт ресторана.",
+		skills: "WordPress, Elementor",
+		tab: "WordPress",
+		img: no_photo,
+		imgBig: no_photoBig,
+	},
+	{
+		id: "wordpress-4",
 		title: "SuperPrint",
 		description: "Многостраничный сайт магазина одежды и аксессуаров.",
 		skills: "WordPress, WooCommerce",
@@ -286,14 +318,14 @@ export const projects: Project[] = [
 		liveSiteLink: "https://adamchereshniuk.byethost4.com/?i=1",
 	},
 	{
-		id: "wordpress-3",
-		title: "Amberkava",
-		description: "Многостраничный сайт компании Amberkava.",
+		id: "wordpress-5",
+		title: "Foodi",
+		description: "Одностраничный сайт ресторана Foodi.",
 		skills: "WordPress, Elementor",
 		tab: "WordPress",
-		img: amberkava,
-		imgBig: amberkavaBig,
-		liveSiteLink: "https://amberkava.22web.org/wp/",
+		img: foodi,
+		imgBig: foodiBig,
+		liveSiteLink: "http://adamcher.atwebpages.com/#",
 	},
 ];
 
