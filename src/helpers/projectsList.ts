@@ -28,9 +28,6 @@ import evclidBig from "./../img/projects/evclid.png";
 import pioner from "./../img/projects/pioner.png";
 import pionerBig from "./../img/projects/pioner.png";
 
-import google_maps_app from "./../img/projects/google_maps_app.jpg";
-import google_maps_appBig from "./../img/projects/google_maps_app.jpg";
-
 import fromboard_delivery from "./../img/projects/fromboard_delivery.png";
 import fromboard_deliveryBig from "./../img/projects/fromboard_delivery.png";
 
@@ -54,9 +51,6 @@ import email_to_businessBig from "./../img/projects/email_to_business.png";
 
 import turkomanda from "./../img/projects/turkomanda.png";
 import turkomandaBig from "./../img/projects/turkomanda.png";
-
-import dashboard from "./../img/projects/dashboard.png";
-import dashboardBig from "./../img/projects/dashboard.png";
 
 import recipes_app from "./../img/projects/recipes_app.png";
 import recipes_appBig from "./../img/projects/recipes_app.png";
