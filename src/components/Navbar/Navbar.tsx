@@ -18,14 +18,14 @@ export const Navbar = () => {
 
 					<ul className="nav-list">
 						<li className="nav-list__item">
-							<NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/Portfolio/">Главная</NavLink>
+							<NavLink className={() => window.location.pathname == "/Portfolio/" ? activeLink : normalLink} to="/Portfolio/">Главная</NavLink>
 						</li>
 
 						<li className="nav-list__item">
-							<NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/Portfolio/projects">Проекты</NavLink>
+							<NavLink className={() => window.location.pathname.includes("projects") ? activeLink : normalLink} to="/Portfolio/projects">Проекты</NavLink>
 						</li>
 						<li className="nav-list__item">
-							<NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/Portfolio/contacts">Контакты</NavLink>
+							<NavLink className={() => window.location.pathname.includes("contacts") ? activeLink : normalLink} to="/Portfolio/contacts">Контакты</NavLink>
 						</li>
 					</ul>
 				</div>
