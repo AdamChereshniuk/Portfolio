@@ -266,14 +266,20 @@ html, body {
 	/* Header  */
 	.header {
 		min-height: unset;
+		padding: 40px 0 !important;
+		background-image: none !important;
 	}
 
 	.header__title, .header__title strong {
-		font-size: 30px;
-		width: 100%;
+		line-height: 120% !important;
+		font-size: 30px !important;
+		width: 100% !important;
 	}
 
 	/* Nav */
+	.nav {
+		padding: 16px 0 !important;
+	}
 	.nav-row {
 		justify-content: space-between;
 	}
